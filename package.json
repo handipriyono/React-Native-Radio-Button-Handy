@@ -1,0 +1,34 @@
+{
+  "name": "rn-radio-button",
+  "version": "1.0.0",
+  "description": "Simple and customizable React Native Radio Button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "react component",
+    "react native component",
+    "radio",
+    "button",
+    "ios",
+    "android",
+    "component",
+    "radio button",
+    "rn",
+    "customizable"
+  ],
+  "author": "Handi Priyono",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handipriyono/React-Native-Radio-Button-Handy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/handipriyono/React-Native-Radio-Button-Handy/issues"
+  },
+  "homepage": "https://github.com/handipriyono/React-Native-Radio-Button-Handy#readme"
+}
