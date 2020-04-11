@@ -1,4 +1,4 @@
-# React-Native-Radio-Button-Handy
+# React-Native-Radio-Button
 
 Simple Radio Button Component for React Native - iOS and Android
 
@@ -6,7 +6,7 @@ Simple Radio Button Component for React Native - iOS and Android
 
 > simple and useful radio button component for React Native
 
-[![npm](https://img.shields.io/npm/v/rn-radio-button.svg)]()[![npm](https://img.shields.io/npm/l/rn-radio-button.svg)]()
+[![npm](https://img.shields.io/npm/v/rn-radio-button.svg?style=plastic)](https://npmjs.org/package/rn-radio-button) [![npm](https://img.shields.io/npm/dm/rn-radio-button?style=plastic)](https://npmjs.org/package/rn-radio-button) [![npm](https://img.shields.io/npm/dt/rn-radio-button.svg?style=plastic)](https://npmjs.org/package/rn-radio-button)
 
 <p>
 
