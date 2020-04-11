@@ -1,6 +1,6 @@
 {
   "name": "rn-radio-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and customizable React Native Radio Button",
   "main": "index.js",
   "scripts": {
