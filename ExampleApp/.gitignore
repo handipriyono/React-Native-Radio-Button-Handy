@@ -4,6 +4,7 @@
 
 # Xcode
 #
+Podfile.lock
 build/
 *.pbxuser
 !default.pbxuser
