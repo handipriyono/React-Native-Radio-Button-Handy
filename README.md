@@ -8,6 +8,12 @@ Simple Radio Button Component for React Native - iOS and Android
 
 [![npm](https://img.shields.io/npm/v/rn-radio-button.svg)]()[![npm](https://img.shields.io/npm/l/rn-radio-button.svg)]()
 
+<p>
+
+![image info](ExampleApp/giftRN-radiobutton.gif)
+
+</p>
+
 ## Installation
 
 ```sh
@@ -17,9 +23,45 @@ npm i rn-radio-button --save
 # Getting Started
 
 ```js
+import React, { useState } from "react";
+import { SafeAreaView, Text, View } from "react-native";
 import RadioButton from "rn-radio-button";
 
-//define list or array data
+const App = () => {
+  console.log(RadioButton);
+  const [val, setVal] = useState("-");
+
+  function pressCircle(i) {
+    setVal(i);
+  }
+
+  return (
+    <>
+      <SafeAreaView style={{ backgroundColor: "#085b7c", flex: 0 }} />
+      <SafeAreaView style={{ flex: 1, marginHorizontal: 10 }}>
+        <RadioButton
+          outerWidth={30}
+          innerWidth={20}
+          borderWidth={1}
+          data={listData}
+          color={"steelblue"}
+          onPress={pressCircle}
+          wrapperStyle={{ padding: 3 }}
+        />
+        <View
+          style={{
+            marginHorizontal: 10,
+            marginVertical: 10,
+            alignItems: "center"
+          }}
+        >
+          <Text>{"clicked item value is: " + val}</Text>
+        </View>
+      </SafeAreaView>
+    </>
+  );
+};
+
 const listData = [
   { label: "First", value: 1 },
   { label: "Second", value: 2 },
@@ -27,22 +69,7 @@ const listData = [
   { label: "Sixth", value: 6 }
 ];
 
-return (
-  <>
-    <SafeAreaView style={{ backgroundColor: "#085b7c", flex: 0 }} />
-    <SafeAreaView style={{ flex: 1, marginHorizontal: 10 }}>
-      <RadioButton
-        outerWidth={30}
-        innerWidth={20}
-        borderWidth={1}
-        data={listData}
-        color={"steelblue"}
-        onPress={val => console.log(val)}
-        wrapperStyle={{ padding: 3 }}
-      />
-    </SafeAreaView>
-  </>
-);
+export default App;
 ```
 
 ## Basic Usage
@@ -82,3 +109,11 @@ return (
 | `onPress`      | `function`       | -           | Define function for get value of selected radio button |
 | `wrapperStyle` | `Object style`   | -           | Styling for wrap outer side of Radio Button            |
 | `horizontal`   | boolean          | false       | make list of radio Button wrap Horizontally            |
+
+# Demo
+
+```
+- cd ExampleApp/ && npm install
+- cd ios && pod install
+- cd .. && react-native run-ios
+```
