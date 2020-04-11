@@ -1,12 +1,12 @@
-# React-Native-Radio-Button
+# rn-radio-button
 
 Simple Radio Button Component for React Native - iOS and Android
+
+[![npm](https://img.shields.io/npm/v/rn-radio-button.svg?style=plastic)](https://npmjs.org/package/rn-radio-button)
 
 # rn-radio-button
 
 > simple and useful radio button component for React Native
-
-[![npm](https://img.shields.io/npm/v/rn-radio-button.svg?style=plastic)](https://npmjs.org/package/rn-radio-button)
 
 <p>
 
@@ -72,7 +72,7 @@ const listData = [
 export default App;
 ```
 
-## Basic Usage
+## Basic Usage of rn-radio-button
 
 ```js
 <RadioButton
@@ -83,7 +83,7 @@ export default App;
 />
 ```
 
-## Advanced Usage
+## Advanced Usage of rn-radio-button
 
 ```js
 <RadioButton
@@ -97,7 +97,7 @@ export default App;
 />
 ```
 
-# Parameters
+# Parameters of rn-radio-button
 
 | Property       | Type             | Default     | Description                                            |
 | -------------- | ---------------- | ----------- | ------------------------------------------------------ |
