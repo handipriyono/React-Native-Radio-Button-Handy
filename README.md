@@ -1,4 +1,4 @@
-# React-Native-Radio-Button-Handy
+# React-Native-Radio-Button
 
 Simple Radio Button Component for React Native - iOS and Android
 
