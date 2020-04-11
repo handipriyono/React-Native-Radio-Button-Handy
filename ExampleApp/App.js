@@ -11,7 +11,6 @@ import {SafeAreaView, Text, View} from 'react-native';
 import RadioButton from 'rn-radio-button';
 
 const App = () => {
-  console.log(RadioButton);
   const [val, setVal] = useState('-');
 
   function pressCircle(i) {
